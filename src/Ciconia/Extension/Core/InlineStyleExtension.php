@@ -59,6 +59,7 @@ class InlineStyleExtension implements ExtensionInterface, RendererAwareInterface
      */
     public function processItalic(Text $text)
     {
+        return;
         if (!$text->contains('*') && !$text->contains('_')) {
             return;
         }
